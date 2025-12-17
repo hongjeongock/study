@@ -219,6 +219,7 @@ namespace ConsoleGame
                     }
                 }
                 return under;
+            }
                 //이동 대상의 밑에 있던 원본 타일 반환
                 static char GetOriginTile(char tile)
                 {
@@ -313,4 +314,3 @@ namespace ConsoleGame
             public int Y;
         }
     }
-}
